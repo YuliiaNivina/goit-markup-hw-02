@@ -1,0 +1,180 @@
+:root{
+    --main-text-color: #212121;
+    --secondary-text-color: #757575;
+    --link-color: #2196F3;
+    --main-white-color: #FFFFFF;
+    --background-gray: #F5F4FA; 
+}
+
+body{
+    color: var(--main-text-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Хедер */
+/* Логотип */
+.logo{
+    color: var(--main-text-color);
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19px;
+    letter-spacing: 0.03em;
+}
+.logo>span{
+    color: var(--link-color);
+}
+
+/* Навігація */
+.nav{
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.nav-link{
+    color: var(--main-text-color);
+    text-decoration: none;
+}
+.nav-link:hover, .nav-link:focus{
+    color: var(--link-color);
+}
+.nav-link.current{
+    color: var(--link-color);
+}
+
+/* Контакти хедер */
+.contacts{
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+.contacts-link{
+    text-decoration: none;
+    color: var(--secondary-text-color);
+}
+.contacts-link:hover, .contacts-link:focus{
+    color: var(--link-color);
+}
+
+/* Головний контент */
+/* Головна шапка */
+.head-title{
+    color: var(--main-white-color);
+    background-color: #2F303A;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36x;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.button{
+    background-color: var(--background-gray);
+    cursor: pointer;
+}
+.button:hover, .button:focus{
+    color: var(--main-white-color);
+    background-color: var(--link-color);
+}
+.head .button{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+}
+
+/* Наші переваги */
+.benefits{
+    list-style-type: none;
+}
+.benefits-title{
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.benefits-text{
+    color: var(--secondary-text-color);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+/* Чим ми займаємося */
+.works-list{
+    list-style-type: none;
+}
+.secondary-title{
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* Команда */
+.team-list{
+    list-style-type: none;
+}
+.team-name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.team-profession{
+    color: var(--secondary-text-color);
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+/* Футер */
+/* Контакти футер */
+.address{
+    color: var(--main-white-color);
+    background-color: #2F303A;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.address-link{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.address-link:hover, .address-link:focus{
+    color: var(--link-color);
+}
+
+/* Портфоліо */
+.portfolio-filters{
+    list-style-type: none;
+}
+.portfolio-filters .button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+}
+.portfolio-list {
+    list-style-type: none;
+}
+.portfolio-title{
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+}
+.portfolio-app{
+    color: var(--secondary-text-color);
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
